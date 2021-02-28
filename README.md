@@ -3,7 +3,7 @@
 ### Integrantes:
 
 - Francisdilian Cobas Sierra
-- Cristina Vaillant Valéz
+- Cristina Vaillant Valdéz
 - Jose María Moreno
 - Lina Katya L Rodríguez
 
