@@ -12,6 +12,14 @@ The main fying services the company offers are:
 - Flight without a motor of 15 to 20 minutes duration with Accident and Civil Liability Insurance.
 - Course for the Title of Glider
 
+### Tools and Tecnologies:
+- Node.js 
+- TypeScript
+- Express framework
+- Postman
+- Visual Studio Code
+- Azure CosmosDB: Microsoft’s fast NoSQL database
+
 ### Team members:
 
 - Francisdailin Cobas Sierra
