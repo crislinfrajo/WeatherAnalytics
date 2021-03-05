@@ -21,7 +21,6 @@ The main fying services the company offers are:
 - Azure CosmosDB: Microsoft’s fast NoSQL database
 
 ### Team members:
-
 - Francisdailin Cobas Sierra
 - Cristina Vaillant Valdéz
 - Jose María Moreno
