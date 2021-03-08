@@ -29,3 +29,19 @@ To resolve the requirements from the SurfSky company, we will extract data from 
 - Jose María Moreno
 - Lina Katya L Rodríguez
 
+# Install
+
+To install this service follow next steps:
+```
+npm install
+npm run start
+```
+Then your service will be avialable at http://127.0.0.1:4000 that should response with an ok message.
+
+If you want to set another port set it in enviroment variable PORT.
+
+# Test
+Run test with Mocha and Chai
+```
+npm run test
+```
