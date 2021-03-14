@@ -22,7 +22,7 @@ The main fying services the company offers are:
 - Azure CosmosDB: Microsoft’s fast NoSQL database
 
 ### Solución:
-To resolve the requirements from the SurfSky company, we will extract data from the public [API](https://openweathermap.org/api) and we will create an API REST with Azure Cosmos DB's and Node.js Express that retrieve these data to the client through the app. 
+To resolve the requirements from the SurfSky company, we will extract data from the public [API](https://openweathermap.org/api) and we will create an API REST with Azure Cosmos DB's and Node.js Express that retrieve these data to the client through the app 
 
 ### Team members:
 - Francisdailin Cobas Sierra
