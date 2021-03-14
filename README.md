@@ -16,6 +16,7 @@ The main fying services the company offers are:
 - Node.js 
 - TypeScript
 - Express framework
+- Log4js
 - Postman
 - Visual Studio Code
 - Azure CosmosDB: Microsoft’s fast NoSQL database
