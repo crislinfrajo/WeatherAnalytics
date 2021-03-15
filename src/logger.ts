@@ -1,4 +1,4 @@
-import { configure, getLogger } from 'log4js';
+import { getLogger } from 'log4js';
 
 export class Logger {
 
@@ -12,11 +12,23 @@ export class Logger {
     this.logger.debug("Logger initiated!");
   }
 
-  trace( ...args ) {
-    this.logger.log( args );
+  trace( ...args: any[] ) {
+    this.logger.trace( args );
+  }
+
+  debug( ...args: any[] ) {
+    this.logger.debug( args );
   }
   
-  error( ...args ) {
+  info( ...args: any[] ) {
+    this.logger.info( args );
+  }
+
+  warn( ...args: any[] ) {
+    this.logger.warn( args );
+  }
+
+  error( ...args: any[] ) {
     this.logger.error( args );
   }
 
