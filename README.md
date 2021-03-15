@@ -46,3 +46,10 @@ Run test with Mocha and Chai
 ```
 npm run test
 ```
+
+
+# Run code coverage
+Run test with Mocha and Chai and code coverage with nyc (Istanbul). Yo can see HTML Report in coverage/index.html
+```
+npm run coverage
+```

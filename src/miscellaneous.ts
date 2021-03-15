@@ -4,6 +4,6 @@ export interface ResponseObject {
 }
 
 export let increaseHTTPRequestsCounter = () => {
-  return HTTPRequestsCounter++;
+  return ++HTTPRequestsCounter;
 }
 export let HTTPRequestsCounter: number = 0;
