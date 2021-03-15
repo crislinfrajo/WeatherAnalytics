@@ -2,34 +2,68 @@ import { getLogger } from 'log4js';
 
 export class Logger {
 
-  private parent: any;
   private logger: any;
+  private _level: string = 'trace';
 
-  constructor( parent: any ) {
-    this.parent = parent;
+  constructor( level?: string ) {
+    if ( level ) this._level = level;
     this.logger = getLogger();
-    this.logger.level = "debug";
-    this.logger.debug("Logger initiated!");
+    this.setLevel( this.getLevel() );
+    this.logger.debug( "Logger initiated!" );
   }
 
-  trace( ...args: any[] ) {
-    this.logger.trace( args );
+  setLevel( level: string ): void {
+    this._level = level;
+    this.logger.level = this._level;
+  }
+
+  getLevel(): string {
+    return this._level;
+  }
+
+  trace( ...args: any[] ): boolean {
+    try {
+      this.logger.trace( args );
+      return true;
+    } catch ( error ) {
+      return false;
+    }
   }
 
   debug( ...args: any[] ) {
-    this.logger.debug( args );
+    try {
+      this.logger.debug( args );
+      return true;
+    } catch ( error ) {
+      return false;
+    }
   }
-  
+
   info( ...args: any[] ) {
-    this.logger.info( args );
+    try {
+      this.logger.info( args );
+      return true;
+    } catch ( error ) {
+      return false;
+    }
   }
 
   warn( ...args: any[] ) {
-    this.logger.warn( args );
+    try {
+      this.logger.warn( args );
+      return true;
+    } catch ( error ) {
+      return false;
+    }
   }
 
   error( ...args: any[] ) {
-    this.logger.error( args );
+    try {
+      this.logger.error( args );
+      return true;
+    } catch ( error ) {
+      return false;
+    }
   }
 
 }
