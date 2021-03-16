@@ -1,3 +1,8 @@
-language: minimal
+language: node_js
+node_js:
+  - lts/*
 
-script: /bin/true
+install:
+  - npm install
+script:
+  - npm test
