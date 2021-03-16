@@ -3,6 +3,7 @@ import { Request, Response } from 'express';
 import bodyParser from "body-parser";
 import { WeatherEstimateClass } from './weather-estimate.class';
 import { Logger } from './logger';
+import { EstimateException } from './app.exceptions';
 
 // Create Express HTTP Server.
 const server = express();
@@ -29,11 +30,15 @@ server.get( '/', ( request: express.Request, response: express.Response ) => {
 
 server.get( '/estimate', ( request: express.Request, response: express.Response ) => {
   const weatherEstimate = new WeatherEstimateClass( appLogger );
-  const result: string = weatherEstimate.estimate( 'London', 'UK', '2022-01-01' );
-  response.status( 200 );
-  response.json( {
-    "message": result
-  } );
+  weatherEstimate.estimate( request.query.city.toString(), request.query.country.toString(), request.query.date.toString() ).then( ( result: string ) => {
+    response.status( 200 );
+    response.json( {
+      "message": result
+    } );
+  } ).catch( ( error: EstimateException ) => {
+    response.status( 400 );
+    response.send( error );
+  } )
 } );
 
 
