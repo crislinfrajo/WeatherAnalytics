@@ -1,15 +1,15 @@
 {
-  "name": "curso-tdd",
+  "name": "weather-analytics",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Weather Analytics to long term estimate",
+  "main": "dist/app.js",
   "scripts": {
     "start": "tsc && node dist/app.js",
     "test": "mocha -r ts-node/register test/**/*.spec.ts --exit",
     "coverage": "nyc npm run test"
   },
   "author": "",
-  "license": "ISC",
+  "license": "",
   "devDependencies": {
     "@types/chai": "^4.2.15",
     "@types/express": "^4.17.11",

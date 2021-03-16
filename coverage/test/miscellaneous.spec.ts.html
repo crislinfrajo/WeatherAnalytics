@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>0/7</span>
+                <span class='fraction'>10/10</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/3</span>
+                <span class='fraction'>3/3</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>0/7</span>
+                <span class='fraction'>10/10</span>
             </div>
         
             
@@ -55,7 +55,7 @@
             Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
         </p>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -74,39 +74,39 @@
 <a name='L15'></a><a href='#L15'>15</a>
 <a name='L16'></a><a href='#L16'>16</a>
 <a name='L17'></a><a href='#L17'>17</a>
-<a name='L18'></a><a href='#L18'>18</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L18'></a><a href='#L18'>18</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { increaseHTTPRequestsCounter, HTTPRequestsCounter  } from '../src/miscellaneous';
 import { expect } from 'chai';
 import 'mocha';
 &nbsp;
-<span class="cstat-no" title="statement not covered" >describe( 'Miscellaneous tests',</span>
-<span class="fstat-no" title="function not covered" >  ()</span> =&gt; {
+describe( 'Miscellaneous tests',
+  () =&gt; {
     
     
-<span class="cstat-no" title="statement not covered" >    it( 'increaseHTTPRequestsCounter increase number and should return a number', <span class="fstat-no" title="function not covered" >()</span> =&gt; {</span>
-      let currCounter = <span class="cstat-no" title="statement not covered" >increaseHTTPRequestsCounter();</span>
-<span class="cstat-no" title="statement not covered" >      expect( currCounter ).to.be.a( 'number' );</span>
-<span class="cstat-no" title="statement not covered" >      expect( currCounter - 1 ).to.be.eq( 0 );</span>
+    it( 'increaseHTTPRequestsCounter increase number and should return a number', () =&gt; {
+      let currCounter = increaseHTTPRequestsCounter();
+      expect( currCounter ).to.be.a( 'number' );
+      expect( currCounter - 1 ).to.be.eq( 0 );
     } );
 &nbsp;
-<span class="cstat-no" title="statement not covered" >    it( 'HTTPRequestsCounter should be a Number', <span class="fstat-no" title="function not covered" >()</span> =&gt; {</span>
-<span class="cstat-no" title="statement not covered" >      expect(HTTPRequestsCounter ).to.be.a( 'number' );</span>
+    it( 'HTTPRequestsCounter should be a Number', () =&gt; {
+      expect(HTTPRequestsCounter ).to.be.a( 'number' );
     } );
   } );</pre></td></tr></table></pre>
 
@@ -115,7 +115,7 @@ import 'mocha';
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
-                at Tue Mar 16 2021 08:27:08 GMT+0100 (GMT+01:00)
+                at Tue Mar 16 2021 09:16:56 GMT+0100 (GMT+01:00)
             </div>
         </div>
         <script src="../prettify.js"></script>
