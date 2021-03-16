@@ -1,2 +1,11 @@
 personas:
  - SurfSky Company
+
+excepciones:
+ - src/app.exceptions.ts
+
+lenguaje : "typescript"
+taskfile : "npm"
+
+linter:
+ - tslint
