@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "tsc && node dist/app.js",
-    "test": "mocha -r ts-node/register test/**/*.spec.ts",
+    "test": "mocha -r ts-node/register test/**/*.spec.ts --exit",
     "coverage": "nyc npm run test"
   },
   "author": "",
