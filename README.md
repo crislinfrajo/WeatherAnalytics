@@ -42,9 +42,15 @@ Then your service will be avialable at http://127.0.0.1:4000 that should respons
 If you want to set another port set it in enviroment variable PORT.
 
 # Test
-Run test with Mocha and Chai
+In folder test you can find all test/spec files.
 ```
-npm run test
+testing:
+  runner: mocha
+  framework: chai
+```
+To run tests
+```
+npm test
 ```
 
 

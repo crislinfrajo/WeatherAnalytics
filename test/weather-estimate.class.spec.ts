@@ -43,8 +43,6 @@ describe( 'Weather estimate tests',
       const weatherEstimate = new WeatherEstimateClass( new Logger() );
       weatherEstimate.estimate( 'London', 'UK', '2022-01-01' ).then( ( result: string ) => {
         expect( result ).to.be.a( 'string' );
-      } ).catch( ( error: EstimateException ) => {
-
       } );
     } );
 
