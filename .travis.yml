@@ -9,4 +9,5 @@ script:
   - npm test
   - nyc --reporter=lcov mocha && codecov
   - codecov
-
+after_success:
+  - codecov
