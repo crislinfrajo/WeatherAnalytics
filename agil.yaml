@@ -9,3 +9,12 @@ taskfile : "package.json"
 
 linter:
  - tslint
+
+test:
+  - test/app.spec.ts
+  - test/logger.spec.ts
+  - test/miscellaneous.spec.ts
+  - test/weather-estimate.class.spec.ts
+
+aserciones:
+  - npm test
