@@ -18,18 +18,19 @@ The main fying services the company offers are:
 - TypeScript
 - Express framework
 - Log4js
-- Postman
+- Travis
+- Mocha
+- chai
+- condecov
 - Visual Studio Code
-- Azure CosmosDB: Microsoft’s fast NoSQL database
 
-### Solución:
+### Solution:
 To resolve the requirements from the SurfSky company, we will extract data from the public [API](https://openweathermap.org/api) and we will create an API REST with Azure Cosmos DB's and Node.js Express that retrieve these data to the client through the app 
 
 ### Team members:
 - Francisdailin Cobas Sierra
 - Cristina Vaillant Valdéz
 - Jose María Moreno
-- Lina Katya L Rodríguez
 
 # Install
 
