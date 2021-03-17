@@ -21,6 +21,7 @@ describe( 'Logger tests',
     it( 'Should log a debug message', () => {
       const logger = new Logger();
       const result = logger.debug( 'Debug log test' );
+      expect( result ).to.be.a( 'boolean' );
       expect( result ).to.be.eq( true );
     } );
 

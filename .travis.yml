@@ -7,7 +7,7 @@ install:
   - npm install
 script:
   - npm test
-  - mocha -r ts-node/register test/**/*.spec.ts --exit && codecov
+  - mocha -r ts-node/register test/**/*.spec.ts --exit
   - npm run report-coverage
 after_success:
   - codecov
