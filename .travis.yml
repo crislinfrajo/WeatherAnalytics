@@ -7,7 +7,7 @@ install:
   - npm install
 script:
   - npm test
-  - nyc --reporter=lcov mocha && codecov
+  - mocha -r ts-node/register test/**/*.spec.ts --exit && codecov
   - codecov
 after_success:
   - codecov
