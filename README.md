@@ -1,5 +1,5 @@
 # WeatherAnalytics Project
-[![Build Status](https://travis-ci.com/crislinfrajo/WeatherAnalytics.svg?branch=master)](https://travis-ci.com/crislinfrajo/WeatherAnalytics)
+[![Build Status](https://travis-ci.com/crislinfrajo/WeatherAnalytics.svg?branch=master)](https://travis-ci.com/crislinfrajo/WeatherAnalytics) [![codecov](https://codecov.io/gh/crislinfrajo/WeatherAnalytics/branch/master/graph/badge.svg?token=7YY143IT0W)](https://codecov.io/gh/crislinfrajo/WeatherAnalytics)
 
 This is a project that will help the SurfSky company that provides flying service. For the company, it is important to identify the regions that have the ideal climatic conditions, since the duration of the activity is subject to the climatic conditions. This type of flight depends on air currents.
 
