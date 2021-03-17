@@ -1,8 +1,12 @@
 language: node_js
 node_js:
   - lts/*
+before_install:
+  - npm install -g codecov
 install:
   - npm install
 script:
   - npm test
+  - nyc --reporter=lcov mocha && codecov
+  - codecov
 
