@@ -8,6 +8,6 @@ install:
 script:
   - npm test
   - mocha -r ts-node/register test/**/*.spec.ts --exit && codecov
-  - codecov
+  - npm run report-coverage
 after_success:
   - codecov
