@@ -5,7 +5,7 @@ excepciones:
  - src/app.exceptions.ts
 
 lenguaje : "typescript"
-taskfile : "npm"
+taskfile : "package.json"
 
 linter:
  - tslint
