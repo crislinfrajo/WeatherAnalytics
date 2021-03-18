@@ -7,7 +7,7 @@
     "start": "tsc && node dist/app.js",
     "test": "mocha -r ts-node/register test/**/*.spec.ts --exit",
     "coverage": "nyc npm run test",
-        "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
   },
   "author": "",
   "license": "",

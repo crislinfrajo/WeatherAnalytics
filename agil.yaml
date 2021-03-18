@@ -21,3 +21,7 @@ aserciones:
 
 dateador:
   - src/logger.ts
+
+testing:
+    runner: npm run
+    framework: mocha
