@@ -21,7 +21,7 @@ jobs:
           fetch-depth: 0
       - name: Ejecuta tests en el repo
         env:
-          version: ${{ steps.tags.outputs.result }}
+          version: ${{ steps.tag.outputs.result }}
         run: |
           wget https://raw.githubusercontent.com/JJ/curso-tdd/master/t/proyecto.t
           prove -c proyecto.t
