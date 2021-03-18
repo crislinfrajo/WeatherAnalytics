@@ -15,7 +15,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             console.log( context.payload.ref )
-            console.log( context.payload.ref.replace(/\/refs\/tags\/v/, '')
+            console.log( context.payload.ref.replace(/\/refs\/tags\/v/, '') )
             return context.payload.ref.replace(/\/refs\/tags\/v/, '');
       - name: Descarga el repo del estudiante
         uses: actions/checkout@v2
