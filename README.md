@@ -14,7 +14,7 @@ The main fying services the company offers are:
 - Course for the Title of Glider
 
 ### Tools and Tecnologies:
-- Node.js 
+- Node.js
 - TypeScript
 - Express framework
 - Log4js
@@ -25,8 +25,12 @@ The main fying services the company offers are:
 - Visual Studio Code
 
 
-### Solution:
-To resolve the requirements from the SurfSky company, we will extract data from the public [API](https://openweathermap.org/api) and we will create an API REST with Azure Cosmos DB's and Node.js Express that retrieve these data to the client through the app 
+### Solution (Solución):
+
+To solve the requirements from the SurfSky company, we will extract
+data from the public [API](https://openweathermap.org/api) and we will
+create an API REST with Azure Cosmos DB's and Node.js Express that
+retrieve these data to the client through the app
 
 ### Team members:
 - Francisdailin Cobas Sierra
