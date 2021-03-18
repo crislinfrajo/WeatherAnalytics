@@ -33,6 +33,7 @@ create an API REST with Azure Cosmos DB's and Node.js Express that
 retrieve these data to the client through the app
 
 ### Team members:
+
 - Francisdailin Cobas Sierra
 - Cristina Vaillant Valdéz
 - Jose María Moreno
@@ -49,15 +50,12 @@ Then your service will be avialable at http://127.0.0.1:4000 that should respons
 If you want to set another port set it in enviroment variable PORT.
 
 # Test
+
 In folder test you can find all test/spec files.
-```
-testing:
-  runner: mocha
-  framework: chai
-```
+
 To run tests
 ```
-npm test
+npm run test
 ```
 
 
